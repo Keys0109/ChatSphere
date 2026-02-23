@@ -53,6 +53,7 @@ class Settings(BaseSettings):
     # Redis Settings (for caching & presence)
     REDIS_HOST: str = "localhost"
     REDIS_PORT: int = 6379
+    REDIS_PASSWORD: Optional[str] = None
     REDIS_DB: int = 0
     REDIS_CACHE_EXPIRY: int = 3600
 

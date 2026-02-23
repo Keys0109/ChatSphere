@@ -2,15 +2,11 @@ FROM python:3.13
 
 WORKDIR /backend
 
-COPY ./backend/requirements.txt .
+COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./backend/app /backend/app
-
-COPY ./backend/main.py /backend/main.py
-
-COPY ./backend/.env /backend/.env
+COPY . .
 
 EXPOSE 8000
 
