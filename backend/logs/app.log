@@ -332,3 +332,16 @@ metadata
 2026-02-23 03:29:30 | INFO     | app.database:disconnect_redis:96 - Disconnected from Redis
 2026-02-23 03:29:30 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
 2026-02-23 03:30:22 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-23 18:00:45 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-23 18:00:45 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-23 18:00:45 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-23 18:00:45 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-23 18:00:45 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-23 18:00:45 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-23 18:00:45 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-23 18:00:45 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-23 18:00:45 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+2026-02-23 18:00:45 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-23 18:01:15 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-23 18:01:15 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-23 18:01:15 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
