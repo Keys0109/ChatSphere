@@ -1,0 +1,334 @@
+2026-02-11 17:44:13 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:44:13 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:44:14 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:44:14 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:44:14 | ERROR    | app.database:connect_to_database:33 - Failed to connect to database: Unknown option: connectionTimeoutMS. Did you mean one of (connecttimeoutms, sockettimeoutms, serverselectiontimeoutms) or maybe a camelCase version of one? Refer to docstring.
+2026-02-11 17:44:24 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:44:24 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:44:24 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:44:24 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:44:24 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:44:24 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:44:24 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:44:24 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:44:28 | ERROR    | app.database:redis_connect:88 - Failed to connect to Redis: Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:44:42 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:44:42 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:44:42 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:44:42 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:44:42 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:44:42 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:44:42 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:44:42 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:44:46 | ERROR    | app.database:redis_connect:88 - Failed to connect to Redis: Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:45:00 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:45:00 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:45:00 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:45:00 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:45:00 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:45:00 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:45:00 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:45:00 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:45:04 | ERROR    | app.database:redis_connect:88 - Failed to connect to Redis: Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:47:29 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:47:29 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:47:29 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:47:29 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:47:29 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:47:29 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:47:29 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:47:29 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:47:33 | ERROR    | app.database:redis_connect:88 - Failed to connect to Redis: Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:51:40 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:51:40 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:51:40 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:51:40 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:51:40 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:51:40 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:51:40 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:51:40 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:51:44 | ERROR    | app.database:redis_connect:88 - Failed to connect to Redis: Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:52:59 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:52:59 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:52:59 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:52:59 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:52:59 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:52:59 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:52:59 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:52:59 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:53:04 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:53:04 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-11 17:53:51 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-11 17:53:51 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-11 17:53:51 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-11 17:53:59 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:53:59 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:53:59 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:53:59 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:53:59 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:53:59 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:53:59 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:53:59 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:54:03 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:54:03 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-11 17:56:25 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-11 17:56:25 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-11 17:56:25 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-11 17:56:28 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:56:28 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:56:28 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:56:28 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:56:28 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:56:28 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:56:28 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:56:28 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:56:32 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:56:32 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-11 17:56:36 | ERROR    | main:general_exception_handler:92 - Unexpected error: 'Settings' object has no attribute 'JWT_EXPIRATION_MINUTES'
+2026-02-11 17:57:37 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-11 17:57:37 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-11 17:57:37 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-11 17:57:39 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:57:39 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 17:57:39 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 17:57:39 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 17:57:39 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 17:57:39 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 17:57:39 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 17:57:39 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 17:57:43 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 17:57:43 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-11 18:02:34 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:03:41 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-11 18:03:41 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-11 18:03:41 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-11 18:03:51 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:03:52 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 18:03:52 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:03:52 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 18:03:52 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 18:03:52 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 18:03:52 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 18:03:52 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 18:03:56 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 18:03:56 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-11 18:04:01 | INFO     | app.sio:connect:56 - Connection attempt from qcL1ryyRv-lwq1hlAAAB
+2026-02-11 18:04:01 | INFO     | app.sio:connect:88 - User 698b3b1a73e6721cd011e1ed connected with session qcL1ryyRv-lwq1hlAAAB
+2026-02-11 18:04:16 | INFO     | app.sio:disconnect:108 - User 698b3b1a73e6721cd011e1ed is now offline
+2026-02-11 18:04:16 | INFO     | app.sio:disconnect:110 - User 698b3b1a73e6721cd011e1ed disconnected (session qcL1ryyRv-lwq1hlAAAB)
+2026-02-11 18:04:19 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-11 18:04:19 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-11 18:04:19 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-11 18:30:09 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:30:09 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 18:30:09 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:30:09 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 18:30:09 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 18:30:09 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 18:30:09 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 18:30:09 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 18:30:13 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 18:30:13 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-11 18:30:23 | INFO     | app.sio:connect:56 - Connection attempt from qIGC1PojNIoCqNslAAAB
+2026-02-11 18:30:23 | INFO     | app.sio:connect:88 - User 698b3b1a73e6721cd011e1ed connected with session qIGC1PojNIoCqNslAAAB
+2026-02-11 18:30:26 | INFO     | app.sio:disconnect:108 - User 698b3b1a73e6721cd011e1ed is now offline
+2026-02-11 18:30:26 | INFO     | app.sio:disconnect:110 - User 698b3b1a73e6721cd011e1ed disconnected (session qIGC1PojNIoCqNslAAAB)
+2026-02-11 18:32:35 | INFO     | app.sio:connect:56 - Connection attempt from gEzeTZmBUm287DOrAAAD
+2026-02-11 18:32:35 | INFO     | app.sio:connect:88 - User 698b3b1a73e6721cd011e1ed connected with session gEzeTZmBUm287DOrAAAD
+2026-02-11 18:33:20 | WARNING  | main:validation_exception_handler:80 - Validation error: [{'field': 'username', 'message': 'Value error, Username can only contain letters, numbers and underscores'}]
+2026-02-11 18:33:21 | WARNING  | main:validation_exception_handler:80 - Validation error: [{'field': 'username', 'message': 'Value error, Username can only contain letters, numbers and underscores'}]
+2026-02-11 18:33:46 | INFO     | app.sio:connect:56 - Connection attempt from GSDoibytQm6m7rfnAAAF
+2026-02-11 18:33:46 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session GSDoibytQm6m7rfnAAAF
+2026-02-11 18:33:49 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:33:49 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:33:50 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:34:31 | INFO     | app.sio:disconnect:108 - User 698c7e3184ff309d275af19b is now offline
+2026-02-11 18:34:31 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session GSDoibytQm6m7rfnAAAF)
+2026-02-11 18:34:45 | INFO     | app.sio:connect:56 - Connection attempt from Lg5-gZp7rZtk9klSAAAH
+2026-02-11 18:34:45 | INFO     | app.sio:connect:88 - User 698b3b1a73e6721cd011e1ed connected with session Lg5-gZp7rZtk9klSAAAH
+2026-02-11 18:34:48 | INFO     | app.sio:disconnect:110 - User 698b3b1a73e6721cd011e1ed disconnected (session Lg5-gZp7rZtk9klSAAAH)
+2026-02-11 18:34:55 | INFO     | app.sio:connect:56 - Connection attempt from nPN-81ZOT7CoQf1PAAAJ
+2026-02-11 18:34:55 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session nPN-81ZOT7CoQf1PAAAJ
+2026-02-11 18:34:57 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:34:57 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:34:57 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:34:57 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:34:57 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:34:58 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:34:59 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:34:59 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:35:13 | INFO     | app.services.chat_service:create_chat:52 - Created new ChatType.DIRECT chat: 698c7e8984ff309d275af19c
+2026-02-11 18:35:13 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:35:13 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:35:13 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:35:13 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:35:14 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:35:14 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:35:15 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:35:15 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:35:15 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:35:15 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:35:15 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:35:15 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:35:16 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:35:16 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:47:12 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:47:12 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:47:13 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:47:13 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:47:13 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:47:13 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:47:13 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:47:13 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:47:14 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:47:14 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:47:14 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:47:14 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:47:14 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:47:14 | ERROR    | app.routes.chats:create_new_chat:98 - Error creating chat: 1 validation error for ChatResponse
+ChatType
+  Field required [type=missing, input_value={'_id': '698c7e8984ff309d...e, 'is_archived': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-11 18:47:20 | INFO     | app.sio:disconnect:108 - User 698c7e3184ff309d275af19b is now offline
+2026-02-11 18:47:20 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session nPN-81ZOT7CoQf1PAAAJ)
+2026-02-11 18:47:20 | INFO     | app.sio:disconnect:108 - User 698b3b1a73e6721cd011e1ed is now offline
+2026-02-11 18:47:20 | INFO     | app.sio:disconnect:110 - User 698b3b1a73e6721cd011e1ed disconnected (session gEzeTZmBUm287DOrAAAD)
+2026-02-11 18:47:20 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-11 18:47:20 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-11 18:47:20 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-11 18:47:23 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:47:23 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 18:47:23 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:47:23 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 18:47:23 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 18:47:23 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 18:47:23 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 18:47:23 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 18:47:27 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 18:47:27 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-11 18:47:29 | INFO     | app.sio:connect:56 - Connection attempt from wp2iUWGOkLuuYQLNAAAB
+2026-02-11 18:47:29 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session wp2iUWGOkLuuYQLNAAAB
+2026-02-11 18:47:32 | INFO     | app.sio:connect:56 - Connection attempt from zVC23JQilxl1qdPDAAAD
+2026-02-11 18:47:32 | INFO     | app.sio:connect:88 - User 698b3b1a73e6721cd011e1ed connected with session zVC23JQilxl1qdPDAAAD
+2026-02-11 18:47:42 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:47:46 | INFO     | app.sio:disconnect:108 - User 698b3b1a73e6721cd011e1ed is now offline
+2026-02-11 18:47:46 | INFO     | app.sio:disconnect:110 - User 698b3b1a73e6721cd011e1ed disconnected (session zVC23JQilxl1qdPDAAAD)
+2026-02-11 18:47:47 | INFO     | app.sio:connect:56 - Connection attempt from sA2-7OxKap72gRtuAAAF
+2026-02-11 18:47:47 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session sA2-7OxKap72gRtuAAAF
+2026-02-11 18:47:48 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session wp2iUWGOkLuuYQLNAAAB)
+2026-02-11 18:47:49 | INFO     | app.sio:connect:56 - Connection attempt from 3XjvUQnwcwt4o8EXAAAH
+2026-02-11 18:47:49 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session 3XjvUQnwcwt4o8EXAAAH
+2026-02-11 18:48:11 | INFO     | app.sio:connect:56 - Connection attempt from NySZ7Jdhkrt6Qb_NAAAJ
+2026-02-11 18:48:11 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session NySZ7Jdhkrt6Qb_NAAAJ
+2026-02-11 18:48:16 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session NySZ7Jdhkrt6Qb_NAAAJ)
+2026-02-11 18:48:16 | INFO     | app.sio:connect:56 - Connection attempt from OQ_PiySj6kPJyAkcAAAL
+2026-02-11 18:48:16 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session OQ_PiySj6kPJyAkcAAAL
+2026-02-11 18:48:18 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session OQ_PiySj6kPJyAkcAAAL)
+2026-02-11 18:49:10 | INFO     | app.sio:connect:56 - Connection attempt from _owOCFLFSL9ps1CgAAAN
+2026-02-11 18:49:10 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session _owOCFLFSL9ps1CgAAAN
+2026-02-11 18:49:11 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session sA2-7OxKap72gRtuAAAF)
+2026-02-11 18:49:16 | INFO     | app.sio:connect:56 - Connection attempt from b7LeV9rQZRiG4xOIAAAP
+2026-02-11 18:49:16 | INFO     | app.sio:connect:88 - User 698b3b1a73e6721cd011e1ed connected with session b7LeV9rQZRiG4xOIAAAP
+2026-02-11 18:49:47 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:49:47 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:49:47 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:49:47 | INFO     | app.routes.users:search_for_users:91 - Users searched: 698c7e3184ff309d275af19b
+2026-02-11 18:49:48 | INFO     | app.routes.chats:create_new_chat:95 - Chat created successfully: 698c7e8984ff309d275af19c
+2026-02-11 18:49:56 | ERROR    | main:general_exception_handler:92 - Unexpected error: 1 validation error for MessageResponse
+metadata
+  Input should be a valid dictionary [type=dict_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/dict_type
+2026-02-11 18:50:01 | ERROR    | main:general_exception_handler:92 - Unexpected error: 1 validation error for MessageResponse
+metadata
+  Input should be a valid dictionary [type=dict_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/dict_type
+2026-02-11 18:51:03 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session 3XjvUQnwcwt4o8EXAAAH)
+2026-02-11 18:51:03 | INFO     | app.sio:disconnect:108 - User 698c7e3184ff309d275af19b is now offline
+2026-02-11 18:51:03 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session _owOCFLFSL9ps1CgAAAN)
+2026-02-11 18:51:03 | INFO     | app.sio:disconnect:108 - User 698b3b1a73e6721cd011e1ed is now offline
+2026-02-11 18:51:03 | INFO     | app.sio:disconnect:110 - User 698b3b1a73e6721cd011e1ed disconnected (session b7LeV9rQZRiG4xOIAAAP)
+2026-02-11 18:51:03 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-11 18:51:03 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-11 18:51:03 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-11 18:51:05 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:51:06 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-11 18:51:06 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-11 18:51:06 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-11 18:51:06 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-11 18:51:06 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-11 18:51:06 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-11 18:51:06 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-11 18:51:10 | WARNING  | app.database:redis_connect:88 - Redis unavailable (continuing without Redis): Error 22 connecting to localhost:6379. The remote computer refused the network connection.
+2026-02-11 18:51:10 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-11 18:51:11 | INFO     | app.sio:connect:56 - Connection attempt from kIVVkJnSqAKPCJnEAAAB
+2026-02-11 18:51:11 | INFO     | app.sio:connect:88 - User 698b3b1a73e6721cd011e1ed connected with session kIVVkJnSqAKPCJnEAAAB
+2026-02-11 18:51:12 | INFO     | app.sio:connect:56 - Connection attempt from emC53nbkAPhum7ITAAAD
+2026-02-11 18:51:12 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session emC53nbkAPhum7ITAAAD
+2026-02-11 18:51:12 | INFO     | app.sio:connect:56 - Connection attempt from pi9V4BIIhwcusdolAAAF
+2026-02-11 18:51:12 | INFO     | app.sio:connect:88 - User 698c7e3184ff309d275af19b connected with session pi9V4BIIhwcusdolAAAF
+2026-02-11 18:53:22 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session pi9V4BIIhwcusdolAAAF)
+2026-02-11 19:22:39 | INFO     | app.sio:disconnect:108 - User 698b3b1a73e6721cd011e1ed is now offline
+2026-02-11 19:22:39 | INFO     | app.sio:disconnect:110 - User 698b3b1a73e6721cd011e1ed disconnected (session kIVVkJnSqAKPCJnEAAAB)
+2026-02-11 19:22:39 | INFO     | app.sio:disconnect:108 - User 698c7e3184ff309d275af19b is now offline
+2026-02-11 19:22:39 | INFO     | app.sio:disconnect:110 - User 698c7e3184ff309d275af19b disconnected (session emC53nbkAPhum7ITAAAD)
+2026-02-11 19:22:39 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-11 19:22:39 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-11 19:22:39 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-23 03:27:27 | INFO     | __main__:setup_logging:33 - Logging configured at INFO level
+2026-02-23 03:27:27 | INFO     | __main__:main:142 - Starting server in development mode...
+2026-02-23 03:27:27 | INFO     | main:setup_logging:33 - Logging configured at INFO level
+2026-02-23 03:27:27 | INFO     | main:lifespan:47 - Starting ChatSphere API...
+2026-02-23 03:27:27 | INFO     | app.database:connect_to_database:28 - Connected to MongoDB: chatsphere
+2026-02-23 03:27:27 | INFO     | app.database:create_indexes:52 - Creating database indexes...
+2026-02-23 03:27:27 | INFO     | app.database:create_indexes:64 - All indexes created successfully
+2026-02-23 03:27:27 | INFO     | app.database:redis_connect:73 - Connecting to Redis...
+2026-02-23 03:27:27 | INFO     | app.database:redis_connect:86 - Connected to Redis
+2026-02-23 03:27:27 | SUCCESS  | main:lifespan:49 - ✓ Application started successfully
+2026-02-23 03:29:09 | INFO     | app.sio:connect:56 - Connection attempt from 32ahqh8NkOXKeasoAAAB
+2026-02-23 03:29:09 | INFO     | app.sio:connect:88 - User 699b7c2c163bc50ca34c9c60 connected with session 32ahqh8NkOXKeasoAAAB
+2026-02-23 03:29:23 | INFO     | app.sio:disconnect:108 - User 699b7c2c163bc50ca34c9c60 is now offline
+2026-02-23 03:29:23 | INFO     | app.sio:disconnect:110 - User 699b7c2c163bc50ca34c9c60 disconnected (session 32ahqh8NkOXKeasoAAAB)
+2026-02-23 03:29:30 | INFO     | main:lifespan:51 - Shutting down ChatSphere API...
+2026-02-23 03:29:30 | INFO     | app.database:disconnect_mongodb:42 - Disconnected from MongoDB
+2026-02-23 03:29:30 | INFO     | app.database:disconnect_redis:96 - Disconnected from Redis
+2026-02-23 03:29:30 | INFO     | main:lifespan:53 - ✓ Application shutdown complete
+2026-02-23 03:30:22 | INFO     | main:setup_logging:33 - Logging configured at INFO level
