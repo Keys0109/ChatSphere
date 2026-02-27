@@ -3,7 +3,7 @@ from pydantic import field_validator, Field
 from typing import List, Optional
 import os
 
-class get_Settings(BaseSettings):
+class Settings(BaseSettings):
     # Environment
     ENVIRONMENT: str = "development"
     DEBUG: bool = False
@@ -115,4 +115,4 @@ class get_Settings(BaseSettings):
         case_sensitive=True,
     )
 
-settings = get_Settings()
+settings = Settings()

@@ -17,7 +17,7 @@ def create_jwt_token(data: Dict[str, Any], expiration_delta: Optional[timedelta]
         expire = datetime.now(timezone.utc) + expiration_delta
     else:
         expire = datetime.now(timezone.utc) + timedelta(
-            minutes=settings.JWT_EXPIRATION_MINUTES
+            minutes=settings.JWT_EXPIRATION_HOURS * 60
         )
     
     to_encode.update({

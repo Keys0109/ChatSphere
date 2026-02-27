@@ -209,4 +209,6 @@ async def is_user_admin(chat_id: str, user_id: str) -> bool:
     chat = await db.chats.find_one({
         "_id": ObjectId(chat_id)
     })
-    return chat is not None
+    if chat is None:
+        return False
+    return user_id in (chat.get("admin") or [])

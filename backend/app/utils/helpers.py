@@ -34,7 +34,7 @@ def paginate_params(page: int = 1, limit: int = 20) -> Dict[str, int]:
     page = max(1, page)
     limit = min(max(1, limit), 100)
 
-    skip - (page-1) * limit
+    skip = (page-1) * limit
 
     return {"skip": skip, "limit": limit}
 
@@ -49,7 +49,7 @@ def create_pagination_response(
     return {
 
         "items": itmes,
-        "pagimation": {
+        "pagination": {
             "total": total,
             "page": page,
             "limit": limit,
@@ -75,7 +75,8 @@ def success_response(
 
 def error_response(
     message: str,
-    error: str = "error"
+    error: str = "error",
+    errors: list = None,
 ) -> Dict[str, Any]:
     
     response = {
@@ -83,7 +84,6 @@ def error_response(
         "error": error,
     }
 
-    
     if errors:
         response["errors"] = errors
     

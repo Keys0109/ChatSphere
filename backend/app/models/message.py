@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field, ConfigDict, field_validator, EmailStr, field_validator
+from pydantic import BaseModel, Field, ConfigDict, field_validator
 from typing import Optional, List, Dict, Any
 from enum import Enum
 from datetime import datetime, timezone
@@ -84,9 +84,10 @@ class MessageCreate(MessageBase):
     )
     @field_validator("content")
     @classmethod
-    def validate_content(cls, v: Optional[str]) -> Optional[str]:
-        if v is None and not ObjectId.is_valid(v):
-            raise ValueError("Invalid ObjectId")
+    def validate_content(cls, v: str) -> str:
+        v = v.strip()
+        if not v:
+            raise ValueError("Content cannot be empty or whitespace")
         return v
 
 class MessageUpdate(BaseModel):

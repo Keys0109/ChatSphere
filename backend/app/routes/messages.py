@@ -8,7 +8,6 @@ from ..models.message import (
     MessageCreate,
     MessageUpdate,
     MessageResponse,
-    MessageStatus,
     ReactionRequest,
 )
 from ..services.message_service import (

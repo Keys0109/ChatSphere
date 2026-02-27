@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field, ConfigDict, field_validator
 from typing import List, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from bson import ObjectId
 from enum import Enum
 
@@ -185,10 +185,10 @@ class Chat(ChatBase):
     )
     
     created_at: datetime = Field(
-        default_factory=datetime.utcnow
+        default_factory=lambda: datetime.now(timezone.utc)
     )
     updated_at: datetime = Field(
-        default_factory=datetime.utcnow
+        default_factory=lambda: datetime.now(timezone.utc)
     )
     last_message_at: Optional[datetime] = Field(
         None,
@@ -205,7 +205,7 @@ class Chat(ChatBase):
     )
 
     model_config = ConfigDict(
-        populated_by_name=True,
+        populate_by_name=True,
         arbitrary_types_allowed=True,
         json_encoders={
             ObjectId: str

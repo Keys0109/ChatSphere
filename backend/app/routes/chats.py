@@ -39,9 +39,6 @@ class ChatListResponse(BaseModel):
     chats: List[ChatSummary] = Field(default_factory=list)
     total: int = Field(default=0)
 
-class ChatDetailResponse(BaseModel):
-    participants: List[UserSummary] = Field(default_factory=list)
-
 
 
 
@@ -137,43 +134,6 @@ async def get_chat(
         )
 
 
-@router.get(
-    '/{chat_id}', 
-    response_model=ChatDetailResponse, 
-    summary='Get chat details', 
-    description='Get detailed information about a specific chat.'
-)
-
-async def get_chat_details(
-    chat_id: str, 
-    user_id: str=Depends(get_current_user_id)
-):
-    if not await is_user_in_chat(chat_id, user_id):
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail='Not a participant in this chat')
-
-    chat = await get_chat_by_id(chat_id)
-
-
-    if not chat:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND, 
-            detail='Chat not found'
-        )
-
-    participant_users = await get_users_by_ids(chat['participants'])
-
-    participant_details = [UserSummary(
-        _id=u['_id'], 
-        username=u['username'], 
-        avatar=u.get('avatar'), 
-        is_online=u.get('is_online', False)
-    ) for u in participant_users
-    ]
-    
-    return ChatDetailResponse(
-        **chat, 
-        participants=participant_details
-    )
 
 @router.put(
     '/{chat_id}', 
