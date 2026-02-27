@@ -115,8 +115,4 @@ class get_Settings(BaseSettings):
         case_sensitive=True,
     )
 
-@lru_cache
-def nosettings() -> get_Settings:
-    return get_Settings()
-
-settings = nosettings()
+settings = get_Settings()
